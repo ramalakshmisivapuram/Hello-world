@@ -1,0 +1,16 @@
+<form style="text-align: center">
+  <div class="container-fluid">
+    <label for="username"><b>Username:</b></label>
+    <input type="text" name="username" required [(ngModel)]="username"/>
+    <br/>
+    <label for="password"><b>Password:</b></label>
+    <input type="password" name="password"  required [(ngModel)]="password"/>
+    <br/>
+    <button type="submit" value="login" (click)="LoginUser()">Login</button>
+    
+   
+  </div>
+  <br/>
+ 
+   
+</form>
